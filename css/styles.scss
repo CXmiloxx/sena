@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 1.1rem;
+vertical-align: baseline;
+}
+
+body{
+font-size: 1.5rem;
+text-align: justify;
+font-family: sans-serif;
+}
+@import "./mixins";
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Noto+Serif:ital@1&family=Poppins:ital,wght@0,500;1,500&family=Roboto+Slab:wght@300&display=swap');
+@import "./colors";
+@import "./header";
+@import "./inicio";
+@import "./logo";
+@import "./secciones";
+@import "./btn";
+@import "./footer";
+
+@media (min-width: 768px) { /* austes para el cuerpo cuando este en movil */
+}
+    body {
+    font-size: 1.4rem;
+    }
+
+    @media (max-width: 800px) {
+        header {
+        flex-direction:center;
+
+        }
+        nav {
+        padding: 10px 0;
+        }
+        /* Ajustes adicionales para dispositivos móviles */
+    }
+
+
+
+

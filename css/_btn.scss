@@ -1,0 +1,30 @@
+.btn-home{
+        a{
+        display: block;
+        height: 2rem;
+        width: 3rem ;
+        font-weight: 700;
+    border-radius: 0.8rem;
+    padding: 10px 15px;
+    background-color: $primary-color;
+    color: $third-color;
+    text-decoration: none;
+    }
+:hover{
+    background-color: transparent;
+    border: 2px solid;
+}
+}
+.btn-link{
+    display: inline-block;
+    z-index: 999;
+    bottom: 20px;
+    right: 0;
+    position: fixed;
+}
+.btn-img{
+    height: 40px;
+    width: 60px;
+    border-radius: 90%;
+    
+}

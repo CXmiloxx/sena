@@ -1,0 +1,24 @@
+@mixin regiones {
+    padding: 50px 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    h2{
+            
+        color : $primary-color;
+        
+    }
+    h3{
+
+        padding: 20px;
+        
+    }
+    p{
+        padding: 20px;
+        font-size: 1.2rem;
+    }
+}
