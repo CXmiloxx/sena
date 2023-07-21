@@ -59,3 +59,33 @@ font-family: sans-serif;
 } 
 }
 }
+@media (max-height:400px){
+    .principal{
+        height: 140vh !important;
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1rem;
+            text-align: center;
+            color:aliceblue;
+            margin: 10px 10px 20px 0px ;
+        }
+    .title{
+        color: aqua;
+        padding: 70px 0px 18px 0px;
+}
+    }
+
+    .enlaces{
+        a{
+            color: aqua;
+            padding: 0px 40px 0px 0px;
+        }
+
+    }
+    .logo{
+        margin: 0px;
+        a{
+            color: aqua;
+        }
+}
+}
