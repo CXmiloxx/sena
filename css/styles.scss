@@ -21,23 +21,41 @@ font-family: sans-serif;
 @import "./btn";
 @import "./footer";
 
-@media (min-width: 768px) { /* austes para el cuerpo cuando este en movil */
-}
+
+@media (max-width:700px ) { /* austes para el cuerpo cuando este en movil */
+
     body {
-    font-size: 1.4rem;
+        font-size: 1rem;
     }
-
-    @media (max-width: 800px) {
-        header {
-        flex-direction:center;
-
+    .enlaces{
+        a{
+            color: aqua;
+            padding: 0px 40px 0px 0px;
         }
-        nav {
-        padding: 10px 0;
-        }
-        /* Ajustes adicionales para dispositivos móviles */
+
     }
-
-
-
-
+    .logo{
+        margin: 0px;
+        img{
+            height: 0px;
+        }
+        a{
+        margin: 0px -120px 0px 0px ;
+        font-size: 0rem;
+        }
+    }
+.principal{
+    height: 105vh !important;
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+        text-align: center;
+        color:aliceblue;
+        margin: 10px 10px 20px 0px ;
+    }
+.title{
+    color: aqua;
+    padding: 70px 0px 18px 0px;
+} 
+}
+}
